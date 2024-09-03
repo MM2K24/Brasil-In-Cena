@@ -743,9 +743,11 @@ footer img{
     .introducao p{
         justify-content: center;
         align-items: start;
+        
     }
     
-    .introducao img{
+
+    .introducao-mobile img{
         max-width: 100%;
         padding-top: 15px ;
         justify-content: center;
@@ -771,4 +773,52 @@ footer img{
         font-size: 20px ;
         color: rgb(56, 56, 56);
     }
+
+    .autor-mobile{
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: flex-start;
+        margin-bottom: 15px;
+        margin-top: 25px;
+    }
+    .info-autor h3{
+        margin: 0;
+        font-weight: bold;
+    }
+    
+    .info-autor p{
+        margin: 5px 0 0;
+        font-size: 14px;
+    }
+    
+    .autor img{
+        max-width: 100%;
+        height: auto;
+        margin-right: 15px;
+    }
+
+    .redes-criador-mobile{
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: flex-end;
+        gap: 80px;
+        
+    }
+    
+    .texto-redes-mobile{
+        justify-content: flex-start;
+        align-items: flex-start;
+        text-align: start;
+        margin-right: 50px;
+    }
+
+    .redes-criador-item-mobile{
+        display: flex;
+        flex-flow: row nowrap;
+        text-align: center;
+        text-decoration: none ;
+        font-size: 30px;
+        gap: 20px;
+    }
+    
 }
