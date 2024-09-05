@@ -698,7 +698,6 @@ footer img{
     .mobile{
         display: flex;
         flex-flow: column wrap;
-        padding: 10px;
         justify-content: center;
         align-items: center;
     }
@@ -802,7 +801,7 @@ footer img{
         flex-flow: row nowrap;
         justify-content: flex-end;
         gap: 80px;
-        
+        margin-bottom: 10px;
     }
     
     .texto-redes-mobile{
@@ -819,6 +818,9 @@ footer img{
         text-decoration: none ;
         font-size: 30px;
         gap: 20px;
+        
     }
     
+    
+
 }
