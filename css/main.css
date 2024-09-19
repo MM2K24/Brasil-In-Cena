@@ -8,6 +8,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 
 .artigo-mafia-mobile{
@@ -569,6 +570,19 @@ footer img{
     color: #000000;
 }
 
+.icone-insta-pc{
+    position: fixed;
+    top: 42.5vw;
+    left: 88vw;
+    
+}
+
+.icone-insta-cll{
+    position: fixed;
+    top: 152.5vw;
+    left: 82.5vw;
+}
+
 /* Contato */
 
 .container-contato{
@@ -670,6 +684,7 @@ footer img{
 
     body{
         overflow-x: hidden;
+        
     }
 
     img, .container{
@@ -822,7 +837,4 @@ footer img{
         gap: 20px;
         
     }
-    
-    
-
 }
